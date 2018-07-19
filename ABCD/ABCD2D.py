@@ -180,7 +180,7 @@ if __name__ == '__main__':
 
 
 	XBins = []
-	for i in range(9):
+	for i in range(9): # if this was just 1 bin, then the fit would effectively be in 1D!
 		XBins.append(0.5 + 0.5*i)
 	aBins = []
 	for i in range(31):
